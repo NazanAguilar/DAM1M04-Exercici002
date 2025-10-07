@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fafafa;
+}
+
+
+/* Barra fixa superior */
+.barra-fixed {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+}
