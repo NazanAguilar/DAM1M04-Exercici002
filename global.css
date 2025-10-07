@@ -17,3 +17,19 @@ body {
     text-align: center;
     z-index: 1000;
 }
+
+.botones {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: 2px solid rgb(118, 35, 243);
+    border-radius: 6px;
+    border-color: rgb(118, 35, 243);
+    background-color: white;
+
+}
+
+.botones:hover {
+            background-color: rgb(118, 35, 243);
+            color: white;
+        }
