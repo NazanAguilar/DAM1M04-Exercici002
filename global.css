@@ -26,6 +26,7 @@ body {
     border-radius: 6px;
     border-color: rgb(118, 35, 243);
     background-color: white;
+    transition: 0.2s;
 
 }
 
