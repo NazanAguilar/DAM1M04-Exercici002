@@ -30,6 +30,15 @@ body {
 }
 
 .botones:hover {
-            background-color: rgb(118, 35, 243);
-            color: white;
-        }
+    background-color: rgb(118, 35, 243);
+    color: white;
+}
+
+.pie {
+    padding: 15px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+}
