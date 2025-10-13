@@ -1,21 +1,87 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contacte</title>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="global.css">
 
-        <link rel="stylesheet" href="global.css">
-    
-    </head>
-    <body>
+    <style>
+        /* Estils particulars de contacte.html */
+        h1 {
+            font-size: 2.5em;
+            margin-top: 100px;
+            text-align: center;
+        }
 
-        <div class="barra-fixed">Menu (Fixed)
-            <a class="botones" href="index.html"> Inici</a>
-            <a class="botones" href="productes.html"> Productes</a>
-            <a class="botones" href="contacte.html"> Contacte</a>
-        </div>
+        .contacte-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 900px; /* Centrat i més estret */
+            margin: 40px auto;
+            padding: 25px;
+        }
 
-    
-        <footer class="pie">Pie de pagina</footer>
+        /* Formulari */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
 
-    </body>
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+            width: 100%;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: rgb(118, 35, 243);
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+            align-self: start;
+        }
+
+        button:hover {
+            background: rgb(90, 20, 200);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="barra-fixed">
+        <a class="botones" href="index.html">Inici</a>
+        <a class="botones" href="productes.html">Productes</a>
+        <a class="botones" href="contacte.html">Contacte</a>
+    </div>
+
+
+    <footer class="pie">
+        © 2025 La Meva Empresa – Contacte: info@empresa.com
+    </footer>
+
+</body>
+</html>
