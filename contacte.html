@@ -17,12 +17,12 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 40px;
-            max-width: 900px; /* Centrat i més estret */
+            max-width: 900px;
             margin: 40px auto;
             padding: 25px;
         }
 
-        /* Formulari */
+        /* Formulario */
         form {
             display: flex;
             flex-direction: column;
@@ -32,10 +32,6 @@
             border-radius: 10px;
             border: 1px solid #ddd;
             box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-        }
-
-        label {
-            font-weight: bold;
         }
 
         input, textarea {
@@ -67,6 +63,31 @@
             background: rgb(90, 20, 200);
         }
 
+        /* Informacion de contacto */
+        .info-contacte {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        .info-contacte h2 {
+            color: rgb(118, 35, 243);
+            margin-bottom: 10px;
+        }
+
+        .info-contacte p {
+            margin: 8px 0;
+        }
+
+        .mapa {
+            margin-top: 15px;
+            width: 100%;
+            height: 180px;
+            background: #ccc;
+            border-radius: 8px;
+        }
 
     </style>
 </head>
@@ -78,9 +99,40 @@
         <a class="botones" href="contacte.html">Contacte</a>
     </div>
 
+    <div class="contenedor">
+
+        <h1>Contacta amb nosaltres</h1>
+
+        <div class="contacte-grid">
+            
+            <form>
+                <a><b>Nom</b></a>
+                <input placeholder="El teu nom">
+
+                <a><b>Correu electronic</b></a>
+                <input placeholder="exemple@correu.com">
+
+                <a><b>Missatge</b></a>
+                <textarea placeholder="Escriu el teu missatge..."></textarea>
+
+                <button>Enviar</button>
+            </form>
+
+            <div class="info-contacte">
+                <h2>Informació de contacte</h2>
+                <p><b>Adreça:</b> Av cal salines 97· Barcelona</p>
+                <p><b>Telèfon:</b> +34 666 133 974</p>
+                <p><b>Horari:</b> Dl - Dv · 9:00 - 18:00</p>
+                <p><b>Email:</b> pie.calle@empresa.com</p>
+
+                <div class="mapa"></div>
+            </div>
+
+        </div>
+    </div>
 
     <footer class="pie">
-        © 2025 La Meva Empresa – Contacte: info@empresa.com
+        © 2025 A pie de calle – Contacte: pie.calle@empresa.com
     </footer>
 
 </body>
